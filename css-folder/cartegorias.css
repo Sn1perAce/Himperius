@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100%;
+  box-sizing: border-box;
+   background-color: #c1c1c1;
+  
+}
+
+.top {
+  height: 18vh;
+  width: 100%;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #E8E8E8;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.menu ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+
+.menu ul li a:hover {
+
+  color: #827e73;
+  text-shadow: 1px 1px 10px rgb(0, 0, 0, 0.6);
+
+
+}
+
+.container {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+.produto {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.produto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.produto h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.produto p {
+  margin-top: 0;
+}
